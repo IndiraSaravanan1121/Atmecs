@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-27T15:23:13Z" name="Default suite" finished-at="2019-09-27T15:24:22Z" duration-ms="69096">
+    <groups>
+    </groups>
+    <test started-at="2019-09-27T15:23:13Z" name="Default test" finished-at="2019-09-27T15:24:22Z" duration-ms="69096">
+      <class name="com.atmecs.TestScript.ValidateBlogs">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:53:12Z" name="startReport" finished-at="2019-09-27T20:53:13Z" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:53:13Z" name="setup" finished-at="2019-09-27T20:53:39Z" duration-ms="26029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFooter()[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:53:39Z" name="verifyFooter" finished-at="2019-09-27T20:54:04Z" duration-ms="24571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:04Z" name="tearDown" finished-at="2019-09-27T20:54:04Z" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooter status=SUCCESS method=ValidateFooter.verifyFooter()[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateContextMenu()[pri:1, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:04Z" name="validateContextMenu" finished-at="2019-09-27T20:54:08Z" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContextMenu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:08Z" name="tearDown" finished-at="2019-09-27T20:54:09Z" duration-ms="1014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateContextMenu status=SUCCESS method=ValidateFooter.validateContextMenu()[pri:1, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateBlogsDate()[pri:2, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:09Z" name="validateBlogsDate" finished-at="2019-09-27T20:54:20Z" duration-ms="11369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBlogsDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:20Z" name="tearDown" finished-at="2019-09-27T20:54:21Z" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBlogsDate status=SUCCESS method=ValidateBlogs.validateBlogsDate()[pri:2, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateBlogsContent()[pri:3, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:21Z" name="validateBlogsContent" finished-at="2019-09-27T20:54:22Z" duration-ms="917" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d4d3fd949854a0e8d2912819873b3ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ATMECSINDT-083', ip: '50.50.50.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\INDIRA~1.SAR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9d4d3fd949854a0e8d2912819873b3ec
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1005)
+	at com.atmecs.Pages.ValidateBlogsPage.validateAlertMessage(ValidateBlogsPage.java:54)
+	at com.atmecs.TestScript.ValidateBlogs.validateBlogsContent(ValidateBlogs.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBlogsContent -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:22Z" name="tearDown" finished-at="2019-09-27T20:54:22Z" duration-ms="667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBlogsContent status=FAILURE method=ValidateBlogs.validateBlogsContent()[pri:3, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.atmecs.TestScript.ValidateBlogs@1460a8c0]" started-at="2019-09-27T20:54:22Z" name="endReport" finished-at="2019-09-27T20:54:24Z" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.TestScript.ValidateBlogs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
